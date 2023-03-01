@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="Image/favicon.png">
+    <title>Legal</title>
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+ <style rel="prefetch" as="style">
+    .splash{
+      z-index:9;display:flex;flex-direction:column;color:#000;font-size:1.5rem;justify-content: center;align-items:center;position:fixed;width:100vw;height:100vh;background:#fff;transition: 0.7s;
+    }
+    .splash img{
+      height:30vh;
+    }
+  </style>
+  <script rel="prefetch" type="text/javascript">
+    function loaded(){
+      document.body.style="overflow-y:scroll;"
+      document.querySelector(".splash").style.opacity=0;
+      setTimeout(function () {
+        document.querySelector(".splash").style="display:none;"
+      }, 700);
+    }
+    // setTimeout(function () {
+    //   if (window.loaded){
+    //     loaded();
+    //   }
+    //   else {
+    //     window.onload=loaded;
+    //   }
+    // }, 700);
+    window.onload=loaded;
+  </script>
+
+
+<body style="overflow-y:hidden" >
+  <div class="splash">
+    <img src="/Image/load.gif" alt="">
+    <p>LOADING...</p>
+  </div>
+    <div id="nav" class="nav">
+      <img style="height:43px;" src="Image/logo.png" alt="not loaded">
+      <ul  id="nav-list">
+        <li onclick='n1()'>Home</li>
+        <li onclick="n2()">About us</li>
+        <li onclick="n3()">Associates</li>
+        <li onclick="n4()">Services</li>
+        <li onclick="n5()">Fee Structure</li>
+        <li onclick="n6()">Contact Us</li>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+          Schedule Meeting
+        </button>
+      </ul>
+
+      <div class="BURGER" id="burger" onclick="menubtn()">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </div>
+
+    <section>
+      <div class="container-1">
+      <div id="bg-1" class="bg-container">
+        <div data-aos="fade-right" data-aos-duration="3000" id="fpage">
+          <h2>Need Any Help?</h2>
+          <h1>Finest Lawyer</h1>
+          <h3>Legal Facilitation</h3>
+          <p>Advocate, Solicitors, General counselors & Business Consultants<br>
+            Suri, Birbhum, W.B<br>
+            Exceeding Expectations Everytime
+          </p>
+          <button onclick="n6()">CONTACT US</button>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section>
+      <div id="container-2" class="container-2 pad-auto">
+        <div data-aos="fade-right" class="img1"><img src="Image/img_2.png"></div>
+        <div data-aos="fade-right" class="txt1"><p>The <b>Legal Facilitation</b> is the best Law Firm handled client issues regarding Civil, Criminal and Taxation dispute including Judicial & Quasi-judicial matter promptly and effectively and provides best & experienced lawyers, consultants and professionals behalf of their clients before Court, Tribunal, Registry office or any places which is necessary.</p></div>
+        <div id="n2" class="sec1">
+          <h1 data-aos="zoom-out">About us</h1>
+          <h2 class="head-style" data-aos="fade-left">The Firm</h2>
+          <p data-aos="fade-right"><b>“LEGAL FACILITATION”</b> is a legal consultancy Firm and we are helping our client to handle his legal dispute or any litigation by providing experienced lawyer(s), or Experts. We provide trustworthy legal services to our clients. That client of Firm is main concern and we provide time and attention each of our clients which they deserve. Our firm consists of a team of seasoned and experienced lawyers, consultants and professionals having exposure and expertise in the core areas of law & business. Our work culture is transparent, efficient & schedule oriented with intelligent and devoted professionals. Our firm is equipped with optimum infrastructure with latest state of the art technology for research oriented quality product and services. We also arrange free Legal Aid & Seminar in the rural areas towards the west Bengal for the benefit of society. We also arrange Free Legal Aid camp for Awareness of woman, child, senior citizens of society regarding Matrimonial Laws, Maintenance Laws, Protection of Woman Laws, POCSO Act, Senior Citizen Acts, Cyber crimes etc.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div id="n3" class="pad-auto">
+        <h2 class="head-style txt2" data-aos="fade-left">Associates</h2>
+      </div>
+
+        <div id="bg-2" class="container-2 bg-2-container pad-auto" >
+          <div class="aso">
+          <div class="aso-box" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+            <h2>Krishnendu Goswami</h2>
+            <p>Advocate<br>Suri District Judges’ Court<br>Member of Suri Bar Association<br>Suri, Birbhum; W.B</p>
+          </div>
+          <div class="aso-box" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+            <h3>Diganta Chakraborty</h3>
+            <p>Advocate<br>Suri District Judges’ Court<br>Member of Suri Bar Association &<br>Suri Tax Bar Association<br>Suri, Birbhum; W.B</p>
+          </div>
+          <div class="aso-box" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+            <h2>Prasun Banerjee</h2>
+            <p>Advocate<br>Suri District Judges’ Court<br>Member of Suri Bar Association<br>Suri, Birbhum; W.B</p>
+          </div>
+          <div class="aso-box" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+            <h1>Souvik Dey</h1>
+            <p>Advocate<br>Suri District Judges’ Court<br>Member of Suri Bar Association<br>Suri, Birbhum; W.B</p>
+          </div>
+          <div class="aso-box" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+            <h2>Debasis Tewary</h2>
+            <p>Advocate<br>Suri District Judges’ Court<br>Member of Suri Bar Association<br>Suri, Birbhum; W.B</p>
+          </div>
+          <div class="aso-box" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+            <h2>Koushik Acharya</h2>
+            <p>Advocate<br>Suri District Judges’ Court<br>Member of Suri Bar Association<br>Suri, Birbhum; W.B</p>
+          </div>
+          </div>
+        </div>
+    </section>
+    <section>
+      <div id="n4" class="pad-auto">
+        <h2 class="head-style-2" data-aos="zoom-out">Services</h2>
+      </div>
+      <div id="wrap" class="wrap">
+        <div class="services">
+        <div data-aos="fade" data-aos-duration="500" class="serv-box" >
+        <p>Convenient NOTORY Service. Notarizing is Truly Budged Friendly; etc.</p>
+        </div>
+        <div data-aos="fade" data-aos-duration="500" class="serv-box" >
+        <p>Service of Legal Notice by Competent Lawyer</p>
+        </div>
+        <div data-aos="fade" data-aos-duration="500" class="serv-box" >
+        <p>Drafting, Conveyancing & Registration</p>
+        </div>
+        <div data-aos="fade" data-aos-duration="500" class="serv-box" >
+        <p>Civil Litigation</p>
+        </div>
+        <div data-aos="fade" data-aos-duration="500" class="serv-box" >
+        <p>Criminal Litigation</p>
+        </div>
+        <div data-aos="fade" data-aos-duration="500" class="serv-box" >
+        <p>Consumer Law Dispute</p>
+        </div>
+        <div data-aos="fade" data-aos-duration="500" class="serv-box" >
+        <p>Matrimonial Dispute</p>
+        </div>
+        <div data-aos="fade" data-aos-duration="500" class="serv-box" >
+        <p>Banking & Financial Dispute</p>
+        </div>
+      </div>
+      <!-- <h2 class="note">Note: We also provide any kind of e-payment behalf of our client relating to the above services.</h2> -->
+      </div>
+      <button class="btn-2" onclick="window.location.href='services'">View All Services</button>
+    </section>
+    <section>
+      <div id="n5" class="pad-auto">
+        <h2 class="head-style txt2" data-aos="fade-left">Fee Structure</h2>
+      </div>
+      <div id="fee" data-aos="fade-right" class="pad-auto" style="width:100vw;letter-spacing:1.5px;">
+        <h2 style="padding-left:40px;">Consultation Fee is Rs. 500/- per sitting.</h2>
+        <p style="padding-left:40px;line-height:3;">Fee of any other matter(s) are depending on the gravity, nature & expenses of service.</p>
+      </div>
+      <div class="pad-auto">
+        <h2 class="head-style-3 txt2" data-aos="fade-up">Contact us</h2>
+      </div>
+
+      <div id="n6" class="contact">
+      <div data-aos="zoom-out-up" class="txt3">
+        <img src="Image/icon_map.svg">
+        <p>OFFICE</p>
+        <h2>LEGAL FACILITATION<br>Shova Bazar, Suri Rabindra Pally<br>P.O+P.S - Suri<br>Dist.- Birbhum<br>West Bengal<br>Pin - 731101</h2>
+      </div>
+      <div data-aos="zoom-out-up" class="txt3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#ff6666" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+          </svg>
+        <p>PHONE</p>
+        <h2>+91 9434122347<br>+91 9434150604<br>+91 7001157212<br>+91 9732058380<br>+91 9476254286</h2>
+      </div>
+      <div data-aos="zoom-out-up" class="txt3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#ff6666" class="bi bi-envelope" viewBox="0 0 16 16">
+            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+          </svg>
+        <p>EMAIL</p>
+        <h2>legalfacilitation@gmail.com</h2>
+      </div>
+    </div>
+
+    </section>
+    <section>
+      <div class="footer-menu">
+
+          <h2>Office Hours : 10:00 A.M To 09:00 P.M</h2>
+
+        <div style="display:flex;justify-content:space-around;align-items:center;" class="">
+          <h1>Client Meet</h1>
+          <img style="margin-left:10px;" height="30px" src="/icons2/clock.svg"  alt="">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-clock" viewBox="0 0 16 16">
+            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+          </svg>
+        </div>
+        <p>07 pm to 09 pm (06 days in a week)</p>
+        <p>09 am to 12 pm (Sunday only)</p>
+        <div class="f3">
+        <h3>Taking advance appointment is compulsory for consultation.</h3>
+        <h3>Contact number & email address for Appointment mentioned above.</h3>
+      </div>
+      </div>
+      <div class="footer">
+        <h3>Copyright © 2023 Legal Facilitaton. All Rights Reserved </h3>
+      </div>
+    </section>
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" tabindex="-1" id="exampleModalCenter"  role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Request Meeting</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="reqmet" method="POST">
+              <div class="form-group">
+                <label for="exampleInputText0"><h6>Full Name</h6></label>
+                <input name="name" type="text" class="form-control" id="exampleInputText0" placeholder="Type here..." required>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputText1"><h6>Discussion Agenda</h6></label>
+                <input name="topic" type="text" class="form-control" id="exampleInputText1" placeholder="Type here..." required>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputText3"><h6>Contact Number</h6></label>
+                <input name="mob" type="text" class="form-control" id="exampleInputText3" placeholder="10 digits mobile number" pattern="[0-9]{10}" required>
+              </div>
+              <!-- <div class="form-group">
+                <label for="exampleInputText2"><h6>Time</h6></label>
+                <input type="time" class="form-control" id="exampleInputText2">
+              </div> -->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="submit" name="submit" class="btn btn-primary">Request</button>
+          </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  Launch demo modal
+</button> -->
+
+
+
+  </body>
+  <script type="text/javascript" src="js/jquery-custom.js"></script>
+  <script src="js/aos.js" charset="utf-8"></script>
+  <script src="js/vanilla-tilt.min.js" charset="utf-8"></script>
+  <script>
+  AOS.init();
+</script>
+</html>
